@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------------------------- */
+/* -------------- Header ------------------*/
+
+.head {
+    background-color: #659DBD;
+    min-height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* -------------- navigation ------------------*/
+
+
+.navigation {
+    float: right;
+    margin: 30px 30px;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+}
+
+/* -------------- logo ------------------*/
+
+
+.logo {
+    float: left;
+    font-size: 45px;
+    color: white;
+    margin: 30px 30px;
+}
+
+/* -------------- main------------------*/
+.main_section {
+    background-color: #DAAD86;  
+    min-width: 1200px;
+}
+.main_col_1 {
+    float: left;
+    width: 55%;
+    margin-left: 1.7%;
+    margin-right: 3%;
+    margin-top: 6%;
+}
+.main_col_2 {
+    float: left;
+    width: 30%;
+    margin-left: 1.7%;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.main_col_2 img {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+h1 {
+    font-size: 35px;
+    margin: 20px 0;
+}
+p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.gallery {
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+}
+.row_1 {
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.img_1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.row_2 {
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+.img_2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* -------------- footer------------------*/
+
+footer{
+    background-color: #bc986a;
+    min-height: 20%;
+}
+.foot p{
+    text-align: center;
+}
+
+/* -------------- button ------------------*/
+
+.button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.dot {
+    width: 70px;
+    height: 70px;
+    background-color: chocolate;
+    border-radius: 50%;
+}
+.dot a {
+    text-decoration: none;
+    color: rgb(243, 11, 30);
+}
